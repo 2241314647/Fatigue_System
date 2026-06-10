@@ -84,15 +84,6 @@ data/<subject>/<task>/<subject>_<task>_<timestamp>.mat
 | 综合评分 | `analysis/compute_fatigue_score.m` | 行为和 EEG 指标融合评分 |
 | 设备初始化 | `utils/device_init.m` | 真实设备和 Mock 设备统一入口 |
 
-## 软著材料
-
-软著准备说明见：
-
-- `docs/SOFTWARE_COPYRIGHT_GUIDE.md`
-- `docs/CODE_STRUCTURE.md`
-- `docs/INNOVATION_v3.md`
-
-这些材料用于说明软件功能、运行环境、模块结构、代码范围和申请材料整理方式。正式提交时请根据实际作者、单位、完成日期、发表状态和权利归属如实填写。
 
 ## 注意事项
 
