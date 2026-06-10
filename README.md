@@ -21,7 +21,7 @@ Fatigue_System/
   analysis/                      # 数据分析与疲劳评分
   utils/                         # 设备、被试信息、显示与采集工具
   test/                          # Mock 设备与触发器
-  docs/                          # 项目说明与软著材料
+  docs/                          # 项目说明文档
   data/                          # 本地实验数据目录，.mat 数据默认不入库
   stimuli/                       # 刺激素材说明
 ```
@@ -84,7 +84,6 @@ data/<subject>/<task>/<subject>_<task>_<timestamp>.mat
 | 综合评分 | `analysis/compute_fatigue_score.m` | 行为和 EEG 指标融合评分 |
 | 设备初始化 | `utils/device_init.m` | 真实设备和 Mock 设备统一入口 |
 
-
 ## 注意事项
 
 - 本系统用于科研、教学和实验辅助，不应单独作为医学诊断依据。
@@ -94,4 +93,3 @@ data/<subject>/<task>/<subject>_<task>_<timestamp>.mat
 ## 版本
 
 当前整理版本：V1.0 / 2026-06
-
