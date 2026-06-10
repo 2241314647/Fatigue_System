@@ -1,0 +1,31 @@
+# MATLAB
+*.asv
+*.m~
+*.autosave
+*.slxc
+*.mex*
+
+# MATLAB generated folders
+slprj/
+codegen/
+
+# Experiment data and local outputs
+data/**/*.mat
+outputs/
+work/
+exports/
+figures/
+screenshots/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
